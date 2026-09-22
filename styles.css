@@ -1,0 +1,120 @@
+/*CSS code for professional website*/
+
+
+body{
+    background-color: #f5f5f5;
+   
+}
+/* Main container*/ 
+.main-container {
+    display: grid;
+    grid-template-columns: 100px 180px 400px 1fr;
+    align-items: start;
+}
+/*image box*/
+.img-box img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;   
+
+}
+.image img{
+    width: 400px;
+    height: 250px;
+}
+
+.Spincoater-image img{
+    width: 400px;
+    height: 400px;
+}
+.site_pic2 img{
+    width: 600px;
+    height: 200px;
+}
+
+.img-box {
+    position:sticky;
+    top: 60px;
+    height: fit-content;
+    align-self: self-start;
+}
+
+/* Left side*/
+.left-side-website {
+    position:sticky;
+    top: 40px;
+    font-family: Roboto, sans-serif;
+     
+}
+.left-side-text {
+grid-column: 2/4;
+}
+
+
+.main-container {
+    display: grid;
+    grid-template-columns: 100px 180px 400px 1fr;
+    align-items: start;
+}
+
+.left-side-empty-column {
+    grid-column: 1;
+}
+
+.img-box {
+    grid-column: 2;
+}
+
+.left-side-website {
+    grid-column: 3 / 4;
+    font-family: Roboto, sans-serif;
+    margin-top: 20px;
+}
+
+/* Right side */
+.right-side-website {
+    width: 100%;
+    align-self: start;
+    grid-column: 4;
+    box-sizing: border-box;
+    padding: 0px 40px;
+    font-family: Roboto, sans-serif;
+  
+}
+
+.right-side-website h2{
+    color:#26a69a;
+    }
+
+hr {
+    border: none;
+    border-top: 1px solid #cccccc;
+    margin: 40px 0;
+}
+
+
+a{
+    display: inline-block;
+}
+.buttons {
+    display: flex;
+    gap: 0;
+}
+/* Buttons */
+button {
+    font-size: 18px;
+    color: black;
+    background-color: transparent;
+    padding: 10px 16px;
+    border: none;
+    background-color: none;
+    margin: 0;
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+    text-align: left;
+}
+
+h1{
+    font-size: 40px;
+}
