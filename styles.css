@@ -2,7 +2,7 @@
 
 /*Index Page*/
 body{
-    background-color: #f5f5f5;
+    background-color: white;
    
 }
 /* Main container*/ 
@@ -78,7 +78,7 @@ grid-column: 2/4;
     align-self: start;
     grid-column: 4;
     box-sizing: border-box;
-    padding: 0px 40px;
+    padding: 0px 80px;
     font-family: Roboto, sans-serif;
   
 }
@@ -108,7 +108,23 @@ button {
     background-color: transparent;
     padding: 10px 16px;
     border: none;
+    padding-bottom: 20px;
     background-color: none;
+    margin: 0;
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+    text-align: left;
+}
+
+buttonlink {
+    font-size: 18px;
+    color: black;
+    background-color: transparent;
+    padding: 10px 16px;
+    padding-bottom: 20px;
+    border: none;
+    background-color: none;
+    box-shadow: 0 6px #CCCCCC
     margin: 0;
     cursor: pointer;
     font-family: Roboto, sans-serif;
@@ -128,6 +144,7 @@ h1{
 } 
 h4{
     font-size: 12px;
+     font-family: Roboto, sans-serif;
 }
 
 button1 {
@@ -144,10 +161,21 @@ button1 {
 }
 
 .image1 img{
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 350px;
 }
 .image2 img{
-    width: 200px;
-    height: 100px;
+    width: 500px;
+    height: 300px;
+}
+
+.left-side-website-kiewit-case-study {
+    position:sticky;
+    top: 40px;
+    font-family: Roboto, sans-serif;
+}
+.left-side-website-kiewit-case-study {
+    grid-column: 3 / 4;
+    font-family: Roboto, sans-serif;
+    margin-top: 20px;
 }
